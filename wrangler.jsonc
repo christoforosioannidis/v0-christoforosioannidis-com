@@ -1,7 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "v0-christoforosioannidis-com",
+  "main": ".open-next/worker.js",
   "compatibility_date": "2026-05-07",
   "observability": { "enabled": true },
-  "compatibility_flags": ["nodejs_compat"]
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
 }

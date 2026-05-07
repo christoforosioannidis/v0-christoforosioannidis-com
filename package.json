@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "deploy": "opennextjs-cloudflare build && wrangler deploy .open-next/worker.js --assets .open-next/assets",
     "build:worker": "opennextjs-cloudflare build"
   },
   "dependencies": {

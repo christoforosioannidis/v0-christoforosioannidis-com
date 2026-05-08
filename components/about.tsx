@@ -53,11 +53,11 @@ export function About() {
 
             <div className="relative mt-10 aspect-[3/4] w-full overflow-hidden border border-border/60">
               <Image
-                src="/portrait-silhouette.jpg"
-                alt="Editorial portrait silhouette"
+                src="/portrait.jpg"
+                alt="Portrait of Dr. Christoforos Ioannidis"
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover grayscale"
+                className="object-cover object-top grayscale"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">

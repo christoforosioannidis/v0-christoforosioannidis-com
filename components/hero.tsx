@@ -32,7 +32,7 @@ export function Hero() {
           Est. London · Cyprus · Athens
         </span>
         <span className="hidden font-sans text-[10px] uppercase tracking-[0.32em] text-muted-foreground md:inline">
-          Vol. I — A Public Record
+          Vol. I - A Public Record
         </span>
       </div>
 
@@ -57,7 +57,7 @@ export function Hero() {
             <p className="mt-10 max-w-2xl text-pretty font-serif text-xl leading-relaxed text-foreground/80 md:text-2xl">
               A legal philosopher and academic working at the intersection of
               jurisprudence, international law, political philosophy, and human
-              rights — examining the foundations of legitimacy, sovereignty, and
+              rights - examining the foundations of legitimacy, sovereignty, and
               the order of civilizations.
             </p>
 
@@ -90,7 +90,7 @@ export function Hero() {
                 Currently
               </p>
               <p className="mt-3 font-serif text-lg italic leading-relaxed text-foreground/90">
-                Senior Lecturer in Law — Roehampton University &amp; Anglia
+                Associate Professor in Law - Roehampton University &amp; Anglia
                 Ruskin University, London.
               </p>
               <div className="mt-6 grid grid-cols-3 gap-4">

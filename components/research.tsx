@@ -15,7 +15,7 @@ const themes = [
   {
     n: "III",
     title: "Human Rights & Moral Philosophy",
-    body: "Foundations, justifications, and the philosophical anthropology that makes the discourse of rights coherent — or impossible.",
+    body: "Foundations, justifications, and the philosophical anthropology that makes the discourse of rights coherent - or impossible.",
   },
   {
     n: "IV",
@@ -65,7 +65,7 @@ export function Research() {
           </div>
           <p className="text-pretty font-serif text-lg leading-relaxed text-foreground/75 lg:col-span-5">
             The research is structured around problems that refuse to be
-            solved once and for all — and that, for that reason, demand
+            solved once and for all - and that, for that reason, demand
             continual philosophical attention.
           </p>
         </div>

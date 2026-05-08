@@ -6,7 +6,7 @@ const education = [
     degree: "PhD in Laws",
     school: "King's College London",
     year: "2020",
-    note: "Cyprus State Scholarship Foundation. Dissertation: Legitimacy — An Essentially Contested Concept?",
+    note: "Cyprus State Scholarship Foundation. Dissertation: Legitimacy - An Essentially Contested Concept?",
   },
   {
     degree: "MA in Philosophy",
@@ -27,15 +27,18 @@ const education = [
   },
 ]
 
-const formerInstitutions = [
-  "Queen Mary University of London",
-  "King's College London",
-  "Cardiff Metropolitan University",
-  "University of Central Lancashire",
-  "Chulalongkorn University",
-  "Thammasat University",
-  "University of Cyprus",
-  "Central China Normal University",
+type TeachingPost = { name: string; current?: boolean }
+
+const teachingPosts: TeachingPost[] = [
+  { name: "Roehampton University", current: true },
+  { name: "King's College London" },
+  { name: "Queen Mary University of London" },
+  { name: "Chulalongkorn University" },
+  { name: "Central China Normal University" },
+  { name: "University of Cyprus" },
+  { name: "Thammasat University" },
+  { name: "Cardiff Metropolitan University" },
+  { name: "University of Central Lancashire" },
 ]
 
 export function About() {
@@ -74,17 +77,17 @@ export function About() {
             <div className="space-y-6 font-serif text-lg leading-relaxed text-foreground/85 md:text-xl">
               <p className="text-pretty">
                 Dr. Christoforos Ioannidis is a legal philosopher whose work
-                examines the moral and political foundations of law — the
+                examines the moral and political foundations of law - the
                 concepts of legitimacy, authority, sovereignty, and the
                 contested architecture of human rights. He currently teaches as
-                Senior Lecturer in Law at Roehampton University and Anglia
+                Associate Professor in Law at Roehampton University and Anglia
                 Ruskin University in London.
               </p>
               <p className="text-pretty">
                 His scholarship draws on jurisprudence, philosophy of law,
                 political philosophy, and public international law. Trained in
                 Athens, Edinburgh, Arizona, and London, he has lived in six
-                countries and travelled in fifty-six — an itinerant academic
+                countries and travelled in fifty-six - an itinerant academic
                 career that has informed an unmistakably cosmopolitan reading of
                 the legal order.
               </p>
@@ -92,7 +95,7 @@ export function About() {
                 Beyond the lecture hall, he has been an international conference
                 speaker, co-convener of the International Graduate Legal
                 Research Conference at King&rsquo;s College London, President of
-                the KCL Think Tank Law Policy Centre, and — for eleven years —
+                the KCL Think Tank Law Policy Centre, and - for eleven years -
                 the Cyprus National Water Ski Champion.
               </p>
             </div>
@@ -129,16 +132,23 @@ export function About() {
               </ul>
             </div>
 
-            {/* Former institutions */}
+            {/* Teaching posts */}
             <div className="mt-12">
               <h3 className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
-                Former Teaching Posts
+                Teaching Posts
               </h3>
               <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 font-serif text-base text-foreground/75 md:text-lg">
-                {formerInstitutions.map((inst, i) => (
-                  <li key={inst} className="flex items-center gap-6">
-                    <span>{inst}</span>
-                    {i < formerInstitutions.length - 1 && (
+                {teachingPosts.map((p, i) => (
+                  <li key={p.name} className="flex items-center gap-6">
+                    <span>
+                      {p.name}
+                      {p.current && (
+                        <span className="ml-2 font-sans text-[10px] uppercase tracking-[0.24em] text-primary/80">
+                          Current
+                        </span>
+                      )}
+                    </span>
+                    {i < teachingPosts.length - 1 && (
                       <span className="text-primary/60">·</span>
                     )}
                   </li>
@@ -164,7 +174,7 @@ export function About() {
                     key={x}
                     className="flex items-baseline gap-3 font-serif text-lg text-foreground/85"
                   >
-                    <span className="text-primary/70">—</span>
+                    <span className="text-primary/70">-</span>
                     {x}
                   </div>
                 ))}

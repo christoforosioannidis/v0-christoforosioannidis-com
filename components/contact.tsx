@@ -47,7 +47,7 @@ export function Contact() {
               >
                 <Linkedin className="h-4 w-4 text-primary" />
                 <span className="font-serif text-lg text-foreground transition-colors group-hover:text-primary">
-                  LinkedIn — Christoforos Ioannidis, PhD
+                  LinkedIn - Christoforos Ioannidis, PhD
                 </span>
               </a>
               <div className="flex items-center gap-4">

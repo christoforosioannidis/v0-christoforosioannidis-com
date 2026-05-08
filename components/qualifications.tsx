@@ -22,25 +22,25 @@ const qualifications: Qualification[] = [
     Icon: ScrollText,
   },
   {
-    title: "Junior Fellow — Legal & Political Theory Programme",
+    title: "Junior Fellow - Legal & Political Theory Programme",
     body: "Three-year fellowship at the Think Tank programme of the Global Research Network in legal and political theory.",
-    meta: "October 2019 — October 2022",
+    meta: "October 2019 - October 2022",
     Icon: BookOpen,
   },
   {
-    title: "Lifetime Academic Member — ATINER",
+    title: "Lifetime Academic Member - ATINER",
     body: "Lifetime member of the Athens Institute for Education and Research; Academic Member of its Philosophy and Law Research Units.",
     meta: "From December 2014 · GBR2014007600769",
     Icon: Award,
   },
   {
-    title: "Reviewer — International Journal of Social Sciences",
+    title: "Reviewer - International Journal of Social Sciences",
     body: "Peer reviewer for the International Journal of Social Sciences across legal philosophy and political theory submissions.",
-    meta: "July 2014 — Present",
+    meta: "July 2014 - Present",
     Icon: Users,
   },
   {
-    title: "CELTA — Cambridge Certificate in English Language Teaching to Adults",
+    title: "CELTA - Cambridge Certificate in English Language Teaching to Adults",
     body: "Cambridge accreditation in English language teaching, awarded through ECC.",
     meta: "September 2006",
     Icon: ScrollText,
@@ -51,12 +51,12 @@ const leadership = [
   {
     role: "President",
     body: "KCL Think Tank Law Policy Centre",
-    period: "2014 – 2015",
+    period: "2014 - 2015",
   },
   {
     role: "Managing Editor",
     body: "King's Student Law Review (KSLR)",
-    period: "2014 – 2015",
+    period: "2014 - 2015",
   },
   {
     role: "Co-convener",
@@ -66,7 +66,7 @@ const leadership = [
   {
     role: "Editor in Legal Theory",
     body: "King's Student Law Review (KSLR)",
-    period: "2013 – 2014",
+    period: "2013 - 2014",
   },
   {
     role: "Registrations Officer",

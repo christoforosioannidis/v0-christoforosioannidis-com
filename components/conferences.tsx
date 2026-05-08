@@ -27,7 +27,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2017",
-    date: "Jun 8 – 11",
+    date: "Jun 8 - 11",
     title: "On Identity of States: What is Sovereignty in a Post-Human Rights Era?",
     event: "Asian Conference on Social Sciences (IAFOR)",
     city: "Kobe",
@@ -37,7 +37,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2016",
-    date: "Apr 4 – 5",
+    date: "Apr 4 - 5",
     title: "Legitimacy of the International Human Rights System in a Transnational Context",
     event: "10th International Graduate Legal Research Conference",
     city: "London",
@@ -45,7 +45,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2015",
-    date: "Jan 29 – 30",
+    date: "Jan 29 - 30",
     title: "In Quest of the Standard of Legitimacy of International Law",
     event: "University of Copenhagen Postgraduate Law Conference",
     city: "Copenhagen",
@@ -53,7 +53,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Oct 25 – 31",
+    date: "Oct 25 - 31",
     title: "Expanding Access to Elite University Teaching",
     event: "1st Dialogue: KCL Think Tank × AISES",
     city: "Rome",
@@ -62,7 +62,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Sep 15 – 18",
+    date: "Sep 15 - 18",
     title: "Popular Sovereignty as a Requirement of Statehood",
     event: "International Institute of Social and Economic Sciences",
     city: "Antibes",
@@ -71,7 +71,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Jun 24 – 27",
+    date: "Jun 24 - 27",
     title: "Popular Sovereignty as a Requirement of Statehood",
     event: "International Institute of Social and Economic Sciences",
     city: "Reykjavík",
@@ -80,7 +80,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Jul 14 – 17",
+    date: "Jul 14 - 17",
     title: "An Argument in Favor of Popular Sovereignty as a Requirement of Statehood",
     event: "11th Annual International Conference of Law",
     city: "Athens",
@@ -88,7 +88,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Jun 30 – Jul 3",
+    date: "Jun 30 - Jul 3",
     title: "An Argument in Favor of Popular Sovereignty as a Requirement of Statehood",
     event: "International Journal of Arts & Sciences",
     city: "Venice",
@@ -96,7 +96,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Jun 16 – 19",
+    date: "Jun 16 - 19",
     title: "An Argument in Favor of Popular Sovereignty as a Requirement of Statehood",
     event: "International Journal of Arts & Sciences",
     city: "Barcelona",
@@ -104,7 +104,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "May 30 – Jun 1",
+    date: "May 30 - Jun 1",
     title: "The Legacy of Ronald Dworkin",
     event: "McMaster Philosophy of Law Conference",
     city: "Burlington, Ontario",
@@ -113,7 +113,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "May 28 – 29",
+    date: "May 28 - 29",
     title: "Are the Conditions for Statehood Sufficient?",
     event: "Ontario Legal Philosophy Partnership Conference, McMaster University",
     city: "Hamilton, Ontario",
@@ -121,7 +121,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "May 16 – 17",
+    date: "May 16 - 17",
     title: "Are the Conditions for Statehood Sufficient?",
     event: "Challenges of the Knowledge Society Conference",
     city: "Bucharest",
@@ -129,7 +129,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Apr 26 – 27",
+    date: "Apr 26 - 27",
     title: "Are the Conditions of Statehood Sufficient?",
     event: "International Academic Conference on Law and Politics",
     city: "Istanbul",
@@ -139,7 +139,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Apr 3 – 4",
+    date: "Apr 3 - 4",
     title: "Popular Sovereignty as a Condition for Statehood",
     event: "Newcastle Law School PGR Conference",
     city: "Newcastle",
@@ -147,7 +147,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Mar 25 – 26",
+    date: "Mar 25 - 26",
     title: "Social Causes and Social Beliefs: Can Art International Make Us Reason?",
     event: "International Conference on Social Sciences (IKM)",
     city: "Colombo",
@@ -155,7 +155,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2014",
-    date: "Feb 21 – 22",
+    date: "Feb 21 - 22",
     title: "Social Causes and the Pursuit of Social Beliefs: Is There a Neutral Start?",
     event: "Second Euroacademia Global Forum of Critical Studies",
     city: "Prague",
@@ -163,7 +163,7 @@ const conferences: Conference[] = [
   },
   {
     year: "2011",
-    date: "May 28 – 29",
+    date: "May 28 - 29",
     title: "Fundamental Individual Rights and Cultural Diversity: Controversy?",
     event: "4th Postgraduate Conference of Law and Philosophy",
     city: "Stirling",

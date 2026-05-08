@@ -7,7 +7,7 @@ const publications = [
     type: "Doctoral Thesis",
     year: "2020",
     title: "Legitimacy: An Essentially Contested Concept?",
-    venue: "King's College London — PhD in Laws",
+    venue: "King's College London - PhD in Laws",
     href: "https://kclpure.kcl.ac.uk/portal/en/theses/legitimacy(264becc8-2005-4ca9-bd73-0e3d72eb48e7).html",
     image: "/manuscript.jpg",
     feature: true,
@@ -25,18 +25,18 @@ const publications = [
     year: "2012",
     title:
       "Can Kelsen's Legal Positivism Account for International Regime Change?",
-    venue: "Arizona State University — MA in Philosophy",
+    venue: "Arizona State University - MA in Philosophy",
     href: "https://repository.asu.edu/attachments/97595/content//tmp/package-ednG6y/Ioannidis_asu_0010N_12230.pdf",
   },
   {
     type: "Forthcoming",
-    year: "—",
+    year: "-",
     title: "The Pseudo-Problem of Authority",
     venue: "Working paper · in preparation",
   },
   {
     type: "Forthcoming",
-    year: "—",
+    year: "-",
     title:
       "State Sovereignty: An Essentially Contested Concept?",
     venue: "Working paper · in preparation",

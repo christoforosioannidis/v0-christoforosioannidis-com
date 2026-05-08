@@ -42,7 +42,7 @@ export function SiteNav() {
         <a
           href="#top"
           className="group flex items-center gap-3"
-          aria-label="Dr. Christoforos Ioannidis — Home"
+          aria-label="Dr. Christoforos Ioannidis - Home"
         >
           <span className="font-serif text-lg italic tracking-wide text-foreground md:text-xl">
             C. Ioannidis

@@ -31,14 +31,14 @@ const items: Item[] = [
     kind: "Forthcoming",
     title: "The Pseudo-Problem of Authority",
     outlet: "A book-length argument · in preparation",
-    year: "—",
+    year: "-",
     Icon: BookMarked,
   },
   {
     kind: "Forthcoming",
     title: "Long-form interviews & podcast appearances",
     outlet: "Conversations on jurisprudence, sovereignty & the philosophy of rights",
-    year: "—",
+    year: "-",
     Icon: Mic,
   },
 ]

@@ -10,31 +10,31 @@ type Post = {
 
 const posts: Post[] = [
   {
-    years: "Jul 2025 – Present",
+    years: "Jul 2025 - Present",
     institution: "Roehampton University",
     city: "London",
-    role: "Senior Lecturer in Law",
+    role: "Associate Professor in Law",
     modules: ["Equity & Trusts (Module Leader)"],
   },
   {
-    years: "Jul 2025 – Present",
+    years: "Jul 2025 - Present",
     institution: "Anglia Ruskin University",
     city: "London",
-    role: "Senior Lecturer in Law",
+    role: "Associate Professor in Law",
     modules: [
       "Public & EU Law (Module Leader)",
-      "Law of Obligations — Contract & Tort (Module Leader)",
+      "Law of Obligations - Contract & Tort (Module Leader)",
     ],
   },
   {
-    years: "Jan 2024 – Apr 2025",
+    years: "Jan 2024 - Apr 2025",
     institution: "Cardiff Metropolitan University",
     city: "Cardiff",
     role: "Lecturer in Law",
     modules: [
       "Contemporary Business & Consumer Protection Law",
       "Constitutional Law",
-      "Business Obligations — Contract & Tort",
+      "Business Obligations - Contract & Tort",
       "Research, Innovation & Enterprise",
       "Law in Practice & Digital Legal Innovation",
       "Applied Skills in Advocacy",
@@ -42,7 +42,7 @@ const posts: Post[] = [
     ],
   },
   {
-    years: "Jan 2023 – Jan 2024",
+    years: "Jan 2023 - Jan 2024",
     institution: "University of Central Lancashire",
     city: "Preston",
     role: "Lecturer in Law",
@@ -54,21 +54,21 @@ const posts: Post[] = [
     ],
   },
   {
-    years: "Dec 2021 – Dec 2022",
+    years: "Dec 2021 - Dec 2022",
     institution: "Thammasat University",
     city: "Bangkok",
     role: "Lecturer, English for Academic Purposes",
     modules: ["EAP Law", "EAP Political Science", "EAP Sociology & Anthropology"],
   },
   {
-    years: "Sep 2020 – Dec 2020",
+    years: "Sep 2020 - Dec 2020",
     institution: "University of Cyprus",
     city: "Nicosia",
     role: "Visiting Lecturer in Law & Philosophy",
     modules: ["Legal Ethics (Module Leader)", "Ancient Moral Philosophy (BSc Philosophy)"],
   },
   {
-    years: "Oct 2017 – Dec 2019",
+    years: "Oct 2017 - Dec 2019",
     institution: "Queen Mary University of London",
     city: "London",
     role: "Visiting Lecturer in Law",
@@ -82,7 +82,7 @@ const posts: Post[] = [
     modules: ["Law and Social Theory"],
   },
   {
-    years: "Jan 2016 – Sep 2017",
+    years: "Jan 2016 - Sep 2017",
     institution: "Central China Normal University",
     city: "Wuhan",
     role: "Lecturer in Law",
@@ -90,11 +90,11 @@ const posts: Post[] = [
       "International Human Rights Law",
       "International Commercial Law",
       "International Commercial Arbitration",
-      "Coach — Willem C. Vis East Moot Team (Hong Kong, 2016)",
+      "Coach - Willem C. Vis East Moot Team (Hong Kong, 2016)",
     ],
   },
   {
-    years: "Mar 2015 – Jan 2016",
+    years: "Mar 2015 - Jan 2016",
     institution: "Jianghan University",
     city: "Wuhan",
     role: "Lecturer in Law",
@@ -116,7 +116,7 @@ export function Teaching() {
             </h2>
           </div>
           <p className="text-pretty font-serif text-lg leading-relaxed text-foreground/75 lg:col-span-4">
-            Across the United Kingdom, China, Thailand, and Cyprus — at every
+            Across the United Kingdom, China, Thailand, and Cyprus - at every
             level from undergraduate law to MBA, GDL, MSc, and graduate
             philosophy.
           </p>
@@ -150,7 +150,7 @@ export function Teaching() {
                     key={m}
                     className="flex items-baseline gap-3 font-serif text-[15px] leading-relaxed text-foreground/80"
                   >
-                    <span className="text-primary/60">—</span>
+                    <span className="text-primary/60">-</span>
                     <span>{m}</span>
                   </li>
                 ))}

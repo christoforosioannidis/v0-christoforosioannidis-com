@@ -1,32 +1,6 @@
 import Image from "next/image"
 import { SectionLabel } from "./section-label"
 
-const education = [
-  {
-    degree: "PhD in Laws",
-    school: "King's College London",
-    year: "2020",
-    note: "Cyprus State Scholarship Foundation. Dissertation: Legitimacy - An Essentially Contested Concept?",
-  },
-  {
-    degree: "MA in Philosophy",
-    school: "Arizona State University",
-    year: "2012",
-    note: "Summa Cum Laude. GPA 3.81 / 4.",
-  },
-  {
-    degree: "LLM in International Law",
-    school: "University of Edinburgh",
-    year: "2006",
-  },
-  {
-    degree: "LLB",
-    school: "National & Kapodistrian University of Athens",
-    year: "2005",
-    note: "10th best student place; Honorary 'Always Excel' Scholarship.",
-  },
-]
-
 type TeachingPost = { name: string; current?: boolean }
 
 const teachingPosts: TeachingPost[] = [
@@ -98,38 +72,6 @@ export function About() {
                 the KCL Think Tank Law Policy Centre, and - for eleven years -
                 the Cyprus National Water Ski Champion.
               </p>
-            </div>
-
-            {/* Education */}
-            <div className="mt-16">
-              <h3 className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
-                Education
-              </h3>
-              <ul className="mt-6 divide-y divide-border/60 border-y border-border/60">
-                {education.map((e) => (
-                  <li
-                    key={e.degree + e.school}
-                    className="grid grid-cols-12 gap-4 py-5"
-                  >
-                    <span className="col-span-2 font-sans text-xs tabular-nums text-muted-foreground md:text-sm">
-                      {e.year}
-                    </span>
-                    <div className="col-span-10">
-                      <div className="font-serif text-xl text-foreground md:text-2xl">
-                        {e.degree}
-                      </div>
-                      <div className="mt-0.5 font-sans text-sm text-muted-foreground">
-                        {e.school}
-                      </div>
-                      {e.note && (
-                        <div className="mt-2 max-w-xl font-serif text-sm italic leading-relaxed text-foreground/65">
-                          {e.note}
-                        </div>
-                      )}
-                    </div>
-                  </li>
-                ))}
-              </ul>
             </div>
 
             {/* Teaching posts */}

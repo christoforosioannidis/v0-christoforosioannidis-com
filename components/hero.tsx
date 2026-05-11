@@ -37,7 +37,7 @@ export function Hero() {
       </div>
 
       {/* Portrait - upper right (lg+) */}
-      <div className="pointer-events-none absolute right-6 top-36 z-10 hidden w-[240px] overflow-hidden border border-border/60 md:right-10 md:top-40 lg:block xl:w-[280px]">
+      <div className="pointer-events-none absolute right-6 top-36 z-10 hidden w-[240px] -translate-x-1/2 overflow-hidden border border-border/60 md:right-10 md:top-40 lg:block xl:w-[280px]">
         <div className="relative aspect-[3/4] w-full">
           <Image
             src="/portrait-hero.jpg"
@@ -105,8 +105,7 @@ export function Hero() {
                 Currently
               </p>
               <p className="mt-3 font-serif text-lg italic leading-relaxed text-foreground/90">
-                Associate Professor in Law - Roehampton University &amp; Anglia
-                Ruskin University, London.
+                Associate Professor in Law - Roehampton University, London.
               </p>
               <div className="mt-6 grid grid-cols-3 gap-4">
                 <Stat n="6" label="Countries Lived" />

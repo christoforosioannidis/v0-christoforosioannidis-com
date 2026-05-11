@@ -10,7 +10,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-card py-28 md:py-40"
+      className="relative bg-card pb-28 pt-12 md:pb-40 md:pt-16"
     >
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-12">

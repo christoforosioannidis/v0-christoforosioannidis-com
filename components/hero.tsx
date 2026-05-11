@@ -96,7 +96,7 @@ export function Hero() {
               <div className="mt-6 grid grid-cols-3 gap-4">
                 <Stat n="6" label="Countries Lived" />
                 <Stat n="56" label="Countries Travelled" />
-                <Stat n="11" label="Years Champion" />
+                <Stat n="11" label="Years National Water Ski Champion" />
               </div>
             </div>
           </aside>

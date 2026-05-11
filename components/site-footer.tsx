@@ -22,10 +22,10 @@ export function SiteFooter() {
               Index
             </div>
             <ul className="mt-5 space-y-3 font-serif text-base text-foreground/80">
-              <li><a href="#about" className="hover:text-primary">About</a></li>
-              <li><a href="#research" className="hover:text-primary">Research</a></li>
-              <li><a href="#publications" className="hover:text-primary">Publications</a></li>
-              <li><a href="#conferences" className="hover:text-primary">Conferences</a></li>
+              <li><a href="/#about" className="hover:text-primary">About</a></li>
+              <li><a href="/#research" className="hover:text-primary">Research</a></li>
+              <li><a href="/publications" className="hover:text-primary">Publications</a></li>
+              <li><a href="/conferences" className="hover:text-primary">Conferences</a></li>
             </ul>
           </div>
           <div className="md:col-span-3">
@@ -33,10 +33,10 @@ export function SiteFooter() {
               Continued
             </div>
             <ul className="mt-5 space-y-3 font-serif text-base text-foreground/80">
-              <li><a href="#teaching" className="hover:text-primary">Teaching</a></li>
-              <li><a href="#qualifications" className="hover:text-primary">Qualifications</a></li>
-              <li><a href="#media" className="hover:text-primary">Media</a></li>
-              <li><a href="#contact" className="hover:text-primary">Contact</a></li>
+              <li><a href="/teaching" className="hover:text-primary">Teaching</a></li>
+              <li><a href="/qualifications" className="hover:text-primary">Qualifications</a></li>
+              <li><a href="/media" className="hover:text-primary">Media</a></li>
+              <li><a href="/#contact" className="hover:text-primary">Contact</a></li>
             </ul>
           </div>
         </div>

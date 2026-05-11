@@ -76,7 +76,7 @@ export function Hero() {
                 Biography
               </a>
               <a
-                href="#conferences"
+                href="/conferences"
                 className="font-sans text-xs uppercase tracking-[0.28em] text-muted-foreground transition-colors hover:text-foreground"
               >
                 Lectures

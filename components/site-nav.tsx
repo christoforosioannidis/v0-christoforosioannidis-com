@@ -5,14 +5,14 @@ import { Menu, X } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#research", label: "Research" },
-  { href: "#publications", label: "Publications" },
-  { href: "#conferences", label: "Conferences" },
-  { href: "#teaching", label: "Teaching" },
-  { href: "#qualifications", label: "Qualifications" },
-  { href: "#media", label: "Media" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#research", label: "Research" },
+  { href: "/publications", label: "Publications" },
+  { href: "/conferences", label: "Conferences" },
+  { href: "/teaching", label: "Teaching" },
+  { href: "/qualifications", label: "Qualifications" },
+  { href: "/media", label: "Media" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 export function SiteNav() {
@@ -40,7 +40,7 @@ export function SiteNav() {
         aria-label="Primary"
       >
         <a
-          href="#top"
+          href="/"
           className="group flex items-center gap-3"
           aria-label="Dr. Christoforos Ioannidis - Home"
         >

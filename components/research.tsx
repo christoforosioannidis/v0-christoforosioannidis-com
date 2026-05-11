@@ -38,7 +38,7 @@ export function Research() {
   return (
     <section
       id="research"
-      className="relative overflow-hidden bg-background py-28 md:py-40"
+      className="relative overflow-hidden bg-background pb-28 pt-12 md:pb-40 md:pt-16"
     >
       {/* Backdrop image */}
       <div className="absolute inset-0 -z-10 opacity-[0.08]">

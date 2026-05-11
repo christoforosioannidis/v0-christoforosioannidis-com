@@ -36,6 +36,21 @@ export function Hero() {
         </span>
       </div>
 
+      {/* Portrait - upper right (lg+) */}
+      <div className="pointer-events-none absolute right-6 top-36 z-10 hidden w-[240px] overflow-hidden border border-border/60 md:right-10 md:top-40 lg:block xl:w-[280px]">
+        <div className="relative aspect-[3/4] w-full">
+          <Image
+            src="/portrait-hero.jpg"
+            alt="Portrait of Dr. Christoforos Ioannidis"
+            fill
+            sizes="(min-width: 1280px) 280px, 240px"
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-transparent to-transparent" />
+        </div>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-40 md:px-10 md:pb-28 md:pt-48">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-end">

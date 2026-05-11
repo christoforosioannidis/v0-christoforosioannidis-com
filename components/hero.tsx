@@ -27,12 +27,9 @@ export function Hero() {
       </div>
 
       {/* Top meta strip */}
-      <div className="pointer-events-none absolute inset-x-0 top-20 z-10 mx-auto flex max-w-7xl items-center justify-between px-6 md:top-28 md:px-10">
+      <div className="pointer-events-none absolute inset-x-0 top-20 z-10 mx-auto flex max-w-7xl items-center px-6 md:top-28 md:px-10">
         <span className="font-sans text-[10px] uppercase tracking-[0.32em] text-muted-foreground">
           Est. London · Cyprus · Athens
-        </span>
-        <span className="hidden font-sans text-[10px] uppercase tracking-[0.32em] text-muted-foreground md:inline">
-          Vol. I - A Public Record
         </span>
       </div>
 

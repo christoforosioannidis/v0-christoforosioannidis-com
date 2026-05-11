@@ -3,9 +3,44 @@
 import { useState } from "react"
 import { ArrowRight, Mail, Linkedin, MapPin } from "lucide-react"
 import { SectionLabel } from "./section-label"
+import { getSupabase } from "@/lib/supabase"
 
 export function Contact() {
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    if (loading) return
+    setError(null)
+    setLoading(true)
+
+    const fd = new FormData(e.currentTarget)
+    const data = {
+      name: String(fd.get("name") || "").trim(),
+      email: String(fd.get("email") || "").trim(),
+      subject: String(fd.get("subject") || "").trim() || null,
+      message: String(fd.get("message") || "").trim(),
+    }
+
+    try {
+      const supabase = getSupabase()
+      const { error: dbError } = await supabase
+        .from("contact_messages")
+        .insert(data)
+      if (dbError) throw new Error(dbError.message)
+      setSubmitted(true)
+    } catch (err) {
+      setError(
+        err instanceof Error
+          ? err.message
+          : "Could not send the message. Please email directly.",
+      )
+    } finally {
+      setLoading(false)
+    }
+  }
 
   return (
     <section
@@ -60,10 +95,7 @@ export function Contact() {
           </div>
 
           <form
-            onSubmit={(e) => {
-              e.preventDefault()
-              setSubmitted(true)
-            }}
+            onSubmit={onSubmit}
             className="lg:col-span-7"
           >
             <div className="border border-border/60 bg-background/50 p-8 md:p-12">
@@ -91,18 +123,24 @@ export function Contact() {
                   <Field id="subject" label="Subject / Affiliation" />
                   <FieldArea id="message" label="Message" required />
 
-                  <div className="flex items-center justify-between gap-6 pt-4">
+                  <div className="flex flex-col gap-4 pt-4 sm:flex-row sm:items-center sm:justify-between">
                     <p className="font-sans text-[10px] uppercase tracking-[0.28em] text-muted-foreground">
                       All correspondence is read personally.
                     </p>
                     <button
                       type="submit"
-                      className="group inline-flex items-center gap-3 border-b border-primary/60 pb-1 font-sans text-xs uppercase tracking-[0.28em] text-foreground transition-colors hover:text-primary"
+                      disabled={loading}
+                      className="group inline-flex items-center gap-3 border-b border-primary/60 pb-1 font-sans text-xs uppercase tracking-[0.28em] text-foreground transition-colors hover:text-primary disabled:opacity-50"
                     >
-                      Send
+                      {loading ? "Sending" : "Send"}
                       <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
                     </button>
                   </div>
+                  {error && (
+                    <p className="font-sans text-xs leading-relaxed text-red-400/90">
+                      {error}
+                    </p>
+                  )}
                 </div>
               )}
             </div>

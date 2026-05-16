@@ -66,10 +66,10 @@ export function Hero() {
             </h1>
 
             <p className="mt-10 max-w-2xl text-pretty font-serif text-xl leading-relaxed text-foreground/80 md:text-2xl">
-              A legal philosopher and academic working at the intersection of
-              jurisprudence, international law, political philosophy, and human
-              rights - examining the foundations of legitimacy, sovereignty, and
-              the order of civilizations.
+              A legal philosopher and political thinker working across
+              jurisprudence, public international law, political philosophy, and
+              human rights, concerned with the foundations of legitimacy,
+              sovereignty, authority, and power.
             </p>
 
           </div>

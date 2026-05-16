@@ -49,20 +49,20 @@ export function About() {
 
           <div className="lg:col-span-7">
             <div className="space-y-6 font-serif text-lg leading-relaxed text-foreground/85 md:text-xl">
-              <p className="text-pretty">
+              <p className="text-pretty font-semibold">
                 Dr. Christoforos Ioannidis is a legal philosopher whose work
                 examines the moral and political foundations of law - the
-                concepts of legitimacy, authority, sovereignty, and the
-                contested architecture of human rights. He currently teaches as
-                Associate Professor in Law at Roehampton University in London.
+                concepts of legitimacy, authority, sovereignty, power, and the
+                contested architecture of human rights. He is Associate
+                Professor in Law at Roehampton University in London.
               </p>
               <p className="text-pretty">
-                His scholarship draws on jurisprudence, philosophy of law,
-                political philosophy, and public international law. Trained in
-                Greece, the UK and the US, he has lived in six countries and
-                travelled in fifty-six - an itinerant academic career that has
-                informed an unmistakably cosmopolitan reading of the legal
-                order.
+                His scholarship draws on jurisprudence, political philosophy,
+                human rights, and public international law. Trained in Greece,
+                the UK and the US, he has lived in six countries and travelled
+                to 56 - through academic, professional, and sporting engagements
+                - an itinerant academic career that has informed an unmistakably
+                cosmopolitan reading of the legal order.
               </p>
               <p className="text-pretty">
                 Beyond the lecture hall, he has been an international conference

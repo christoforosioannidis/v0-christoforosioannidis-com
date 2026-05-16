@@ -14,7 +14,10 @@ const posts: Post[] = [
     institution: "Roehampton University",
     city: "London",
     role: "Associate Professor in Law",
-    modules: ["Equity & Trusts (Module Leader)"],
+    modules: [
+      "International Human Rights (Module Leader)",
+      "Equity & Trusts (Module Leader)",
+    ],
   },
   {
     years: "Jul 2025 - Present",
@@ -24,6 +27,7 @@ const posts: Post[] = [
     modules: [
       "Public & EU Law (Module Leader)",
       "Law of Obligations - Contract & Tort (Module Leader)",
+      "Commercial Law",
     ],
   },
   {

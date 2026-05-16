@@ -54,16 +54,15 @@ export function About() {
                 examines the moral and political foundations of law - the
                 concepts of legitimacy, authority, sovereignty, and the
                 contested architecture of human rights. He currently teaches as
-                Associate Professor in Law at Roehampton University and Anglia
-                Ruskin University in London.
+                Associate Professor in Law at Roehampton University in London.
               </p>
               <p className="text-pretty">
                 His scholarship draws on jurisprudence, philosophy of law,
                 political philosophy, and public international law. Trained in
-                Athens, Edinburgh, Arizona, and London, he has lived in six
-                countries and travelled in fifty-six - an itinerant academic
-                career that has informed an unmistakably cosmopolitan reading of
-                the legal order.
+                Greece, the UK and the US, he has lived in six countries and
+                travelled in fifty-six - an itinerant academic career that has
+                informed an unmistakably cosmopolitan reading of the legal
+                order.
               </p>
               <p className="text-pretty">
                 Beyond the lecture hall, he has been an international conference
@@ -72,6 +71,11 @@ export function About() {
                 the KCL Think Tank Law Policy Centre, and - for eleven years -
                 the Cyprus National Water Ski Champion, taking bronze in slalom
                 at the Mediterranean Water Ski Games in El Gouna in 1996.
+              </p>
+              <p className="text-pretty">
+                Beyond academia, he engages actively in public debate through
+                newspaper commentary, radio appearances, and wider contributions
+                to legal, political, and social discourse.
               </p>
             </div>
 

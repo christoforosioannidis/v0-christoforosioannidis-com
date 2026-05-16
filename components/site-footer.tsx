@@ -9,7 +9,7 @@ export function SiteFooter() {
               Dr. Christoforos Ioannidis
             </div>
             <div className="mt-3 font-sans text-[11px] uppercase tracking-[0.32em] text-primary">
-              Law · Philosophy · Civilization
+              Law · Philosophy · Power
             </div>
             <p className="mt-8 max-w-md text-pretty font-serif text-base italic leading-relaxed text-foreground/65">
               &ldquo;Some concepts are not waiting to be solved. They are

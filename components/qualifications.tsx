@@ -143,7 +143,7 @@ export function Qualifications() {
           <div className="lg:col-span-8">
             <SectionLabel index="06" label="Qualifications" />
             <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
-              Academic degrees,
+              Academic qualifications,
               <br />
               <span className="italic text-primary/90">
                 fellowships, and standing.
@@ -160,15 +160,7 @@ export function Qualifications() {
 
         {/* Academic Qualifications */}
         <div className="mt-24">
-          <div className="flex items-center gap-4">
-            <span className="hairline w-12" />
-            <h3 className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
-              Academic Qualifications
-            </h3>
-            <span className="hairline flex-1" />
-          </div>
-
-          <ul className="mt-10 divide-y divide-border/60 border-y border-border/60">
+          <ul className="divide-y divide-border/60 border-y border-border/60">
             {academic.map((d) => (
               <li
                 key={d.school + d.year}

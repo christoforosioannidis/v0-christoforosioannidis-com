@@ -59,10 +59,10 @@ export function Hero() {
             </div>
 
             <h1 className="animate-fade-up text-balance font-serif text-[clamp(3rem,9vw,8rem)] font-light leading-[0.92] tracking-[-0.02em] text-foreground">
-              Law.{" "}
-              <span className="italic text-primary/90">Philosophy.</span>
+              Law,{" "}
+              <span className="italic text-primary/90">Philosophy</span>
               <br />
-              Civilization.
+              &amp; Power.
             </h1>
 
             <p className="mt-10 max-w-2xl text-pretty font-serif text-xl leading-relaxed text-foreground/80 md:text-2xl">

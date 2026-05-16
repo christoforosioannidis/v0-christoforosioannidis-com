@@ -20,7 +20,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://christoforos-ioannidis.com"),
   title: {
-    default: "Dr. Christoforos Ioannidis - Law. Philosophy. Civilization.",
+    default: "Dr. Christoforos Ioannidis - Law, Philosophy & Power.",
     template: "%s - Dr. Christoforos Ioannidis",
   },
   description:
@@ -40,14 +40,14 @@ export const metadata: Metadata = {
   creator: "Dr. Christoforos Ioannidis",
   openGraph: {
     type: "website",
-    title: "Dr. Christoforos Ioannidis - Law. Philosophy. Civilization.",
+    title: "Dr. Christoforos Ioannidis - Law, Philosophy & Power.",
     description:
       "Legal philosopher and academic working at the intersection of jurisprudence, international law, and political philosophy.",
     siteName: "Dr. Christoforos Ioannidis",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dr. Christoforos Ioannidis - Law. Philosophy. Civilization.",
+    title: "Dr. Christoforos Ioannidis - Law, Philosophy & Power.",
     description:
       "Legal philosopher and academic working at the intersection of jurisprudence, international law, and political philosophy.",
   },

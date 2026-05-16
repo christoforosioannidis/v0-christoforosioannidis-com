@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   return (
@@ -73,27 +72,6 @@ export function Hero() {
               the order of civilizations.
             </p>
 
-            <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-4">
-              <a
-                href="#research"
-                className="group inline-flex items-center gap-3 border-b border-primary/60 pb-1 font-sans text-xs uppercase tracking-[0.28em] text-foreground transition-colors hover:text-primary"
-              >
-                Explore Work
-                <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
-              </a>
-              <a
-                href="#about"
-                className="font-sans text-xs uppercase tracking-[0.28em] text-muted-foreground transition-colors hover:text-foreground"
-              >
-                Biography
-              </a>
-              <a
-                href="/conferences"
-                className="font-sans text-xs uppercase tracking-[0.28em] text-muted-foreground transition-colors hover:text-foreground"
-              >
-                Lectures
-              </a>
-            </div>
           </div>
 
           <aside className="lg:col-span-4 lg:pb-2">

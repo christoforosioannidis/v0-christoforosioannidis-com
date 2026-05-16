@@ -9,7 +9,7 @@ const publications = [
     title: "Legitimacy: An Essentially Contested Concept?",
     venue: "King's College London - PhD in Laws",
     href: "https://kclpure.kcl.ac.uk/portal/en/theses/legitimacy(264becc8-2005-4ca9-bd73-0e3d72eb48e7).html",
-    image: "/manuscript.jpg",
+    image: "/kcl.jpg",
     feature: true,
   },
   {

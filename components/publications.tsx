@@ -29,6 +29,12 @@ const publications = [
     href: "https://repository.asu.edu/attachments/97595/content//tmp/package-ednG6y/Ioannidis_asu_0010N_12230.pdf",
   },
   {
+    type: "LLM Dissertation",
+    year: "2006",
+    title: "Is There a Case for a Right to Die?",
+    venue: "The University of Edinburgh - LLM",
+  },
+  {
     type: "Forthcoming",
     year: "-",
     title: "The Pseudo-Problem of Authority",

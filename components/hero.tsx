@@ -103,7 +103,7 @@ export function Hero() {
 function Stat({ n, label }: { n: string; label: string }) {
   return (
     <div>
-      <div className="font-serif text-3xl text-primary/90">{n}</div>
+      <div className="font-sans text-3xl tabular-nums text-primary/90">{n}</div>
       <div className="mt-1 font-sans text-[9px] uppercase leading-tight tracking-[0.2em] text-muted-foreground">
         {label}
       </div>

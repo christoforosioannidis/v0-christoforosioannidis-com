@@ -17,7 +17,7 @@ const teachingPosts: TeachingPost[] = [
 
 export function About() {
   return (
-    <section id="about" className="relative bg-background py-28 md:py-40">
+    <section id="about" className="relative bg-background pb-28 pt-12 md:pb-40 md:pt-20">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-20">
           <div className="lg:col-span-5">
@@ -70,7 +70,8 @@ export function About() {
                 speaker, co-convener of the International Graduate Legal
                 Research Conference at King&rsquo;s College London, President of
                 the KCL Think Tank Law Policy Centre, and - for eleven years -
-                the Cyprus National Water Ski Champion.
+                the Cyprus National Water Ski Champion, taking bronze in slalom
+                at the Mediterranean Water Ski Games in El Gouna in 1996.
               </p>
             </div>
 

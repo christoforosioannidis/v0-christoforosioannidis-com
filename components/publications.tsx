@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 import { SectionLabel } from "./section-label"
 
@@ -9,7 +8,6 @@ const publications = [
     title: "Legitimacy: An Essentially Contested Concept?",
     venue: "King's College London - PhD in Laws",
     href: "https://kclpure.kcl.ac.uk/portal/en/theses/legitimacy(264becc8-2005-4ca9-bd73-0e3d72eb48e7).html",
-    image: "/kcl.png",
     feature: true,
   },
   {
@@ -77,38 +75,21 @@ export function Publications() {
             href={feature.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="group mt-16 grid grid-cols-1 gap-10 border-t border-border/60 pt-12 lg:grid-cols-12"
+            className="group mt-16 block border-t border-border/60 pt-12"
           >
-            <div className="relative aspect-[4/5] overflow-hidden border border-border/60 lg:col-span-5">
-              <Image
-                src={feature.image || "/manuscript.jpg"}
-                alt=""
-                fill
-                sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-background/10 to-transparent" />
-              <span className="absolute left-5 top-5 font-sans text-[10px] uppercase tracking-[0.28em] text-primary">
-                Featured · {feature.year}
-              </span>
-            </div>
-            <div className="flex flex-col justify-between gap-8 lg:col-span-7">
-              <div>
-                <span className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
-                  {feature.type}
-                </span>
-                <h3 className="mt-5 text-balance font-serif text-3xl leading-[1.1] text-foreground md:text-5xl">
-                  {feature.title}
-                </h3>
-                <p className="mt-6 font-serif text-lg italic text-muted-foreground">
-                  {feature.venue}
-                </p>
-              </div>
-              <span className="inline-flex items-center gap-3 font-sans text-xs uppercase tracking-[0.28em] text-foreground transition-colors group-hover:text-primary">
-                Read the thesis
-                <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </span>
-            </div>
+            <span className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
+              Featured · {feature.year} · {feature.type}
+            </span>
+            <h3 className="mt-5 max-w-4xl text-balance font-serif text-3xl leading-[1.1] text-foreground md:text-5xl">
+              {feature.title}
+            </h3>
+            <p className="mt-6 font-serif text-lg italic text-muted-foreground">
+              {feature.venue}
+            </p>
+            <span className="mt-8 inline-flex items-center gap-3 font-sans text-xs uppercase tracking-[0.28em] text-foreground transition-colors group-hover:text-primary">
+              Read the thesis
+              <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </span>
           </a>
         )}
 

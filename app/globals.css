@@ -82,7 +82,9 @@
     color: oklch(0.96 0.01 80);
   }
 
-  /* Prevent the white/yellow background that browsers add to autofilled inputs */
+  /* Prevent the white/yellow background that browsers add to autofilled inputs.
+     Chrome ignores "transparent" for the inset box-shadow hack — must use a
+     solid colour matching the surrounding bg. The contact form sits on bg-card. */
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
   input:-webkit-autofill:focus,
@@ -92,9 +94,9 @@
   textarea:-webkit-autofill:focus,
   textarea:-webkit-autofill:active,
   select:-webkit-autofill {
-    -webkit-text-fill-color: var(--foreground);
-    -webkit-box-shadow: 0 0 0 1000px transparent inset;
-    box-shadow: 0 0 0 1000px transparent inset;
+    -webkit-text-fill-color: var(--foreground) !important;
+    -webkit-box-shadow: 0 0 0 1000px var(--card) inset !important;
+    box-shadow: 0 0 0 1000px var(--card) inset !important;
     transition: background-color 9999s ease-in-out 0s;
     caret-color: var(--foreground);
   }

@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { SectionLabel } from "./section-label"
 
 const themes = [
@@ -40,17 +39,6 @@ export function Research() {
       id="research"
       className="relative overflow-hidden bg-background pb-28 pt-2 md:pb-40 md:pt-4"
     >
-      {/* Backdrop image */}
-      <div className="absolute inset-0 -z-10 opacity-[0.08]">
-        <Image
-          src="/columns.jpg"
-          alt=""
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
-      </div>
-
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-7">

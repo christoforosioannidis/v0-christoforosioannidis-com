@@ -141,14 +141,14 @@ export function Qualifications() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
-            <SectionLabel index="06" label="Qualifications" />
-            <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            <SectionLabel label="Qualifications" />
+            <h1 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
               Academic qualifications,
               <br />
               <span className="italic text-primary/90">
                 fellowships, and standing.
               </span>
-            </h2>
+            </h1>
           </div>
           <p className="text-pretty font-serif text-lg leading-relaxed text-foreground/75 lg:col-span-4">
             Formal training across law and philosophy at King&rsquo;s College
@@ -160,9 +160,9 @@ export function Qualifications() {
 
         {/* Academic Qualifications */}
         <div className="mt-24">
-          <ul className="divide-y divide-border/60 border-y border-border/60">
+          <div className="divide-y divide-border/60 border-y border-border/60">
             {academic.map((d) => (
-              <li
+              <div
                 key={d.school + d.year}
                 className="grid grid-cols-12 gap-x-6 gap-y-3 py-10"
               >
@@ -223,9 +223,9 @@ export function Qualifications() {
                     </div>
                   )}
                 </div>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
         {/* Professional Qualifications */}
@@ -275,9 +275,9 @@ export function Qualifications() {
             <span className="hairline flex-1" />
           </div>
 
-          <ul className="mt-10 divide-y divide-border/60 border-y border-border/60">
+          <div className="mt-10 divide-y divide-border/60 border-y border-border/60">
             {leadership.map((l) => (
-              <li
+              <div
                 key={l.role + l.body}
                 className="grid grid-cols-12 gap-x-6 gap-y-2 py-6"
               >
@@ -290,9 +290,9 @@ export function Qualifications() {
                 <span className="col-span-12 font-serif text-lg leading-snug text-foreground md:col-span-6 md:text-xl">
                   {l.body}
                 </span>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </section>

@@ -84,9 +84,13 @@ export function About() {
               <h3 className="font-sans text-[10px] uppercase tracking-[0.32em] text-primary">
                 Teaching Posts
               </h3>
-              <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 font-serif text-base text-foreground/75 md:text-lg">
-                {teachingPosts.map((p, i) => (
-                  <li key={p.name} className="flex items-center gap-6">
+              <div className="mt-6 grid grid-cols-1 gap-x-10 gap-y-2 sm:grid-cols-2">
+                {teachingPosts.map((p) => (
+                  <div
+                    key={p.name}
+                    className="flex items-baseline gap-3 font-serif text-base text-foreground/85 md:text-lg"
+                  >
+                    <span className="text-primary/70">-</span>
                     <span>
                       {p.name}
                       {p.current && (
@@ -95,12 +99,9 @@ export function About() {
                         </span>
                       )}
                     </span>
-                    {i < teachingPosts.length - 1 && (
-                      <span className="text-primary/60">·</span>
-                    )}
-                  </li>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
 
             {/* Areas of expertise */}

@@ -52,14 +52,14 @@ export function Media() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
-            <SectionLabel index="07" label="Media & Public Work" />
-            <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            <SectionLabel label="Media & Public Work" />
+            <h1 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
               Lectures, essays
               <br />
               <span className="italic text-primary/90">
                 & forthcoming work.
               </span>
-            </h2>
+            </h1>
           </div>
           <p className="text-pretty font-serif text-lg leading-relaxed text-foreground/75 lg:col-span-4">
             A growing archive of public-facing scholarship: recorded lectures,

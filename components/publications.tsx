@@ -9,7 +9,7 @@ const publications = [
     title: "Legitimacy: An Essentially Contested Concept?",
     venue: "King's College London - PhD in Laws",
     href: "https://kclpure.kcl.ac.uk/portal/en/theses/legitimacy(264becc8-2005-4ca9-bd73-0e3d72eb48e7).html",
-    image: "/kcl.jpg",
+    image: "/portrait-publications.jpg",
     feature: true,
   },
   {
@@ -60,14 +60,14 @@ export function Publications() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
-            <SectionLabel index="03" label="Publications" />
-            <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            <SectionLabel label="Publications" />
+            <h1 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
               Selected writing
               <br />
               <span className="italic text-primary/90">
                 & work in preparation.
               </span>
-            </h2>
+            </h1>
           </div>
         </div>
 

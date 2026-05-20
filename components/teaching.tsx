@@ -112,12 +112,12 @@ export function Teaching() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
-            <SectionLabel index="05" label="Teaching" />
-            <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            <SectionLabel label="Teaching" />
+            <h1 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
               Two decades
               <br />
               <span className="italic text-primary/90">in the lecture hall.</span>
-            </h2>
+            </h1>
           </div>
           <p className="text-pretty font-serif text-lg leading-relaxed text-foreground/75 lg:col-span-4">
             Across the United Kingdom, China, Thailand, and Cyprus - at every
@@ -126,9 +126,9 @@ export function Teaching() {
           </p>
         </div>
 
-        <ol className="mt-20 space-y-px overflow-hidden border border-border/60 bg-border/60">
+        <div className="mt-20 space-y-px overflow-hidden border border-border/60 bg-border/60">
           {posts.map((p) => (
-            <li
+            <div
               key={p.institution + p.years}
               className="grid grid-cols-12 gap-x-6 gap-y-4 bg-card p-8 transition-colors duration-500 hover:bg-background md:p-10"
             >
@@ -144,24 +144,24 @@ export function Teaching() {
                 <h3 className="font-serif text-2xl leading-tight text-foreground md:text-3xl">
                   {p.institution}
                 </h3>
-                <p className="mt-2 font-serif text-base italic text-foreground/70">
+                <p className="mt-2 font-serif text-lg italic text-foreground/75 md:text-xl">
                   {p.role}
                 </p>
               </div>
-              <ul className="col-span-12 md:col-span-4">
+              <div className="col-span-12 md:col-span-4">
                 {p.modules.map((m) => (
-                  <li
+                  <div
                     key={m}
-                    className="flex items-baseline gap-3 font-serif text-[15px] leading-relaxed text-foreground/80"
+                    className="flex items-baseline gap-3 font-serif text-lg leading-relaxed text-foreground/85 md:text-xl"
                   >
                     <span className="text-primary/60">-</span>
                     <span>{m}</span>
-                  </li>
+                  </div>
                 ))}
-              </ul>
-            </li>
+              </div>
+            </div>
           ))}
-        </ol>
+        </div>
       </div>
     </section>
   )

@@ -32,7 +32,6 @@ const conferences: Conference[] = [
     event: "Asian Conference on Social Sciences (IAFOR)",
     city: "Kobe",
     country: "Japan",
-    href: "https://papers.iafor.org/submission34479/",
     award: "Awarded the IAFOR Scholarship",
   },
   {
@@ -199,14 +198,14 @@ export function Conferences() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-end">
           <div className="lg:col-span-8">
-            <SectionLabel index="04" label="Conferences & Lectures" />
-            <h2 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
+            <SectionLabel label="Conferences & Lectures" />
+            <h1 className="mt-6 text-balance font-serif text-4xl font-light leading-[1.05] tracking-tight text-foreground md:text-5xl lg:text-6xl">
               A record of the rooms
               <br />
               <span className="italic text-primary/90">
                 where the work was tested.
               </span>
-            </h2>
+            </h1>
           </div>
           <div className="lg:col-span-4">
             <div className="grid grid-cols-3 gap-6 border-l border-border/60 pl-6">
@@ -259,7 +258,7 @@ export function Conferences() {
                           <h3 className="text-balance font-serif text-xl leading-snug text-foreground md:text-[1.6rem] md:leading-[1.2]">
                             {c.title}
                           </h3>
-                          <p className="mt-2 font-serif text-base italic text-foreground/70">
+                          <p className="mt-2 font-serif text-lg italic text-foreground/75 md:text-xl">
                             {c.event}
                           </p>
                           <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 font-sans text-[11px] uppercase tracking-[0.22em] text-muted-foreground">

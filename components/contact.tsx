@@ -34,7 +34,7 @@ export function Contact() {
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/christoforos-ioannidis-ph-d-law-7628442b/"
+              href="https://www.linkedin.com/in/christoforos-ioannidis/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-4"
